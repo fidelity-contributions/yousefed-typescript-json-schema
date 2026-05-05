@@ -43,22 +43,22 @@
   "dependencies": {
     "@types/json-schema": "^7.0.15",
     "@types/node": "^24.10.2",
-    "glob": "^13.0.0",
+    "glob": "^13.0.6",
     "path-equal": "^1.2.5",
     "safe-stable-stringify": "^2.5.0",
     "ts-node": "^10.9.2",
     "typescript": "~5.9.3",
-    "vm2": "^3.10.0",
+    "vm2": "^3.10.5",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
-    "ajv": "^8.17.1",
+    "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
-    "chai": "^6.2.1",
+    "chai": "^6.2.2",
     "mocha": "^11.7.5",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.3",
     "source-map-support": "^0.5.21",
     "tslint": "^6.1.3"
   },
