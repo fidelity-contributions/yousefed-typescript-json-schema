@@ -5,7 +5,7 @@ export function run() {
     const defaultArgs = getDefaultArgs();
 
     // prettier-ignore
-    var args = require("yargs")
+    var args = require("yargs")(process.argv.slice(2))
         .usage(helpText)
         .demand(2)
         .boolean("refs").default("refs", defaultArgs.ref)
